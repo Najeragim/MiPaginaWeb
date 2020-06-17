@@ -17,6 +17,23 @@ body {
   &.dark {
     background: #22223b;
   }
+  &.dark::-webkit-scrollbar-thumb{
+    background: #ffff;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background: rgba(255, 255, 255, 0);
+}
+
+body::-webkit-scrollbar-thumb{
+  background: hsla(302, 60%, 34%, 0.4);
+  border-radius: 10px;
 }
 
 .contenedor {
@@ -396,6 +413,7 @@ footer {
 
 .content-foo {
   text-align: center;
+  width: 20%;
 }
 
 .content-foo h4 {
