@@ -1,203 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Najeragim</title>
-    <link rel="stylesheet" href="/css/sass/estilos.css" />
-    <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/3fdf7e0ee0.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <header id="header">
-      <nav>
-        <a href="#header">Inicio</a>
-        <a href="#contenedor sobre-nosotros">Acerca de</a>
-        <a href="#portafolio">Portafolio</a>
-        <a href="#services">Servicios</a>
-        <a href="#footer">Contacto</a>
-        <button class="switch" id="switch">
-          <span><i class="fas fa-sun"></i></span>
-          <span><i class="fas fa-moon"></i></span>
-        </button>
-      </nav>
-      <section class="textos-header">
-        <h1>Este es un test para que lo miren</h1>
-        <h2>Las quiero muxxo pijuras</h2>
-      </section>
-      <div class="wave">
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none">
-          <path
-            d="M0.00,49.98 C149.99,150.00 351.77,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-          ></path>
-        </svg>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Najeragim</title>
+  <link rel="stylesheet" href="/css/sass/estilos.css" />
+  <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/3fdf7e0ee0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <a href="#header">Inicio</a>
+      <a href="#contenedor sobre-nosotros">Acerca de</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#services">Servicios</a>
+      <a href="#footer">Contacto</a>
+      <button class="switch" id="switch">
+        <span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span>
+      </button>
+    </nav>
+    <section class="textos-header">
+      <h1>Esta es mi página web</h1>
+      <h2>(De preferencia abrir con firefox)</h2>
+    </section>
+    <div class="wave">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+        <path d="M0.00,49.98 C149.99,150.00 351.77,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <section class="contenedor sobre-nosotros" id="contenedor sobre-nosotros">
+      <h2 class="titulo">Hola me presento</h2>
+      <div class="contenedor-sobre-nosotros">
+        <img loading: "lazy" src="img/ilustracion1.png" alt="" class="imagen-about-us">
+        <div class="contenido-textos">
+          <h3><span>1</span>Recursos</h3>
+          <p>
+            He utilizado herramientas de internet como <a
+              href="https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections" target="_blank">smooth.ie</a>,
+            o como <a href="https://uigradients.com/#PastelOrangeattheSun" target="_blank">UiGradients</a> para la
+            decoración CSS y HTML de la página. Gracias a esto es más agradable a la vista y con un estilo moderno.
+          </p>
+          <h3><span>2</span>Conocimientos</h3>
+          <p>
+            No he logrado crear una página web dinámica pues apenas he llegado al inicio del tema "Base de Datos", sin
+            embargo, graicas a los conocimientos adquiridos en el anterior semestre, he comprendido la diferencia entre
+            una página web estática y una dinámica. Esta página está mejor representada por su diseño y no por su
+            sistema de JavaScript.
+          </p>
+        </div>
       </div>
-    </header>
-    <main>
-      <section class="contenedor sobre-nosotros" id="contenedor sobre-nosotros">
-        <h2 class="titulo">Hola me presento</h2>
-        <div class="contenedor-sobre-nosotros">
-          <img loading: "lazy" src="img/ilustracion1.png" alt=""
-          class="imagen-about-us">
-          <div class="contenido-textos">
-            <h3><span>1</span>Acabo d aprender</h3>
+    </section>
+    <section class="portafolio" id="portafolio">
+      <div class="contenedor">
+        <h2 class="titulo">Fotitos</h2>
+        <div class="galeria-port">
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img1.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img2.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img3.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img4.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img5.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img6.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img7.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img loading: "lazy" src="/img/img8.jpg" alt="">
+            <div class="hover-galeria">
+              <img loading: "lazy" src="/img/corazonIcono.png" alt="">
+              <p>Imagen ejemplar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients contenedor" id="clients">
+      <h2 class="titulo">Tarjetas de presentaci&oacute;n</h2>
+      <div class="cards">
+        <div class="card">
+          <img loading: "lazy" src="/img/perfil1.jpg" alt="">
+          <div class="contenido-texto-card">
+            <h4>Mi perfil</h4>
             <p>
-              algo nuevo, c llama Github y con &eacute;l podemos trabajar en un
-              mismo proyecto pero no como le haciamos antes. Esto d hecho es
-              m&aacute;s r&aacute;pido.
+              Estudiante de educación media superior, fotógrafo, CBTIS 128
             </p>
-            <h3><span>2</span>Ocupo q sigamos haciendo</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img loading: "lazy" src="/img/perfil2.webp" alt="">
+          <div class="contenido-texto-card">
+            <h4>Usuario</h4>
             <p>
-              P&aacute;ginas web, la vdd no me aburro para nada y esta
-              p&aacute;gina esta perrushka, aprend&iacute; nuevas mmdas para
-              meterle, nom&aacute;s me falta Javascript y conectar las bases de
-              datos. Piquenle a las fotonas:)
+              Podemos agregar una descripción breve del usuario.
             </p>
           </div>
         </div>
-      </section>
-      <section class="portafolio" id="portafolio">
-        <div class="contenedor">
-          <h2 class="titulo">Fotitos</h2>
-          <div class="galeria-port">
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img1.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img2.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img3.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img4.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img5.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img6.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img7.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img loading: "lazy" src="/img/img8.jpg" alt="">
-              <div class="hover-galeria">
-                <img loading: "lazy" src="/img/corazonIcono.png" alt="">
-                <p>P&oacute;nganse a estudiar</p>
-              </div>
-            </div>
+      </div>
+    </section>
+    <section class="about-services" id="services">
+      <div class="contenedor">
+        <h2 class="titulo">SVG como imágenes ejemplares</h2>
+        <div class="servicio-cont">
+          <div class="servicio-ind">
+            <img loading: "lazy" src="/img/ilustracion2.png" alt="">
+            <h3>Buen funcionamiento</h3>
+            <p>
+              de la página web y los complementos utilizados.
+            </p>
+          </div>
+          <div class="servicio-ind">
+            <img loading: "lazy" src="/img/ilustracion3.png" alt="">
+            <h3>Con modo oscuro</h3>
+            <p>
+              para mejor comodidad, así como toma de decisión.
+            </p>
+          </div>
+          <div class="servicio-ind">
+            <img loading: "lazy" src="/img/ilustracion4.png" alt="">
+            <h3>Sencilla navegación</h3>
+            <p>Sin moverse de la página y dando click a los botones del principio.</p>
           </div>
         </div>
-      </section>
-      <section class="clients contenedor" id="clients">
-        <h2 class="titulo">Oye Susana, te pasaste y no hicimos yamada</h2>
-        <div class="cards">
-          <div class="card">
-            <img loading: "lazy" src="/img/perfil1.jpg" alt="">
-            <div class="contenido-texto-card">
-              <h4>Gianl0ko</h4>
-              <p>
-                Un niño k no tiene nada q hacer con su vida y se pone a
-                programar. Taloko
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img loading: "lazy" src="/img/perfil2.jpg" alt="">
-            <div class="contenido-texto-card">
-              <h4>Richi</h4>
-              <p>
-                Ese bato no se le ve desde que entr&oacute; a prepa, biejo
-                traidor
-              </p>
-            </div>
-          </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Phone</h4>
+          <p>123-456-7890</p>
         </div>
-      </section>
-      <section class="about-services" id="services">
-        <div class="contenedor">
-          <h2 class="titulo">Unas fotitos y descritsiones</h2>
-          <div class="servicio-cont">
-            <div class="servicio-ind">
-              <img loading: "lazy" src="/img/ilustracion2.png" alt="">
-              <h3>Todo estar&aacute; bien</h3>
-              <p>
-                No se desesperen compitas, ya mero salimos, ya estan empezando a
-                abrir las tiendas
-              </p>
-            </div>
-            <div class="servicio-ind">
-              <img loading: "lazy" src="/img/ilustracion3.png" alt="">
-              <h3>Escuchen musiK</h3>
-              <p>
-                Yo ando to loco con wallows, tienen rolitas mui padres y ya c
-                acabo 13 reasons why :c
-              </p>
-            </div>
-            <div class="servicio-ind">
-              <img loading: "lazy" src="/img/ilustracion4.png" alt="">
-              <h3>Biejas jetonas, hagan algo d provecho</h3>
-              <p>Tienen q decirme q aprendieron algo padre cuando volvamos</p>
-            </div>
-          </div>
+        <div class="content-foo">
+          <h4>Email</h4>
+          <p>ejemplodecorreo@outlook.com</p>
         </div>
-      </section>
-      <footer id="footer">
-        <div class="contenedor-footer">
-          <div class="content-foo">
-            <h4>Phone</h4>
-            <p>656-298-1852</p>
-          </div>
-          <div class="content-foo">
-            <h4>Email</h4>
-            <p>gian.najera25@gmail.com</p>
-          </div>
-          <div class="content-foo">
-            <h4>Location</h4>
-            <p>Playa de Arrecifes #2953</p>
-          </div>
+        <div class="content-foo">
+          <h4>Location</h4>
+          <p>Ciudad Juárez, Chihuahua</p>
         </div>
-        <h2 class="titulo-final">&copy; Najeragim</h2>
-      </footer>
-    </main>
-    <script src="/js/main.js"></script>
-  </body>
+      </div>
+      <h2 class="titulo-final">&copy; Gianluca Najera</h2>
+    </footer>
+  </main>
+  <script src="/js/main.js"></script>
+</body>
+
 </html>
