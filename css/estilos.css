@@ -68,7 +68,7 @@ header {
   background: #8a2387;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(rgba(242, 113, 33, 0.4)), color-stop(rgba(233, 63, 86, 0.4)), to(rgba(139, 35, 135, 0.4))), url(img/portada.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(242, 113, 33, 0.4)), color-stop(rgba(233, 63, 86, 0.4)), to(rgba(139, 35, 135, 0.4))), url(../img/portada.jpg);
   background: linear-gradient(to right, rgba(242, 113, 33, 0.4), rgba(233, 63, 86, 0.4), rgba(139, 35, 135, 0.4)), url(/img/portada.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
